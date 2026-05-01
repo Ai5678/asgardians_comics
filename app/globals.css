@@ -2,9 +2,21 @@
 
 :root {
   --background: #121212;
+  --primary: #E62429;
+  --secondary: #FFD700;
+  --neutral: #121212;
 }
 
 body {
   background: var(--background);
   color: white;
+  font-family: var(--font-body), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headline), sans-serif;
+}
+
+button, input, select, textarea {
+  font-family: var(--font-headline), sans-serif;
 }
