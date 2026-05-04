@@ -39,7 +39,7 @@ export default function Hero() {
             className="text-5xl xl:text-6xl font-bold uppercase leading-none tracking-tight text-white"
           >
             Unleash The{" "}
-            <span style={{ color: "var(--primary)" }}>Crasher</span>
+            <span style={{ color: "var(--primary)" }}>Asgard</span>
             <br />
             Within
           </h1>
@@ -49,9 +49,7 @@ export default function Hero() {
             className="text-sm leading-relaxed max-w-sm"
             style={{ color: "#b0b0b0" }}
           >
-            The definitive hub for modern collectors. Get first-look access to
-            variant covers, rare trades, and the latest releases from the
-            underground scene.
+            The definitive hub for modern collectors. Get first-look access to variant covers, rare trades, and the latest releases from the underground scene.
           </p>
 
           {/* Buttons */}
@@ -60,7 +58,7 @@ export default function Hero() {
               className="px-7 py-3 text-sm font-bold uppercase tracking-widest text-white border-4 border-black shadow-[4px_4px_0px_black] transition-all hover:translate-x-1 hover:translate-y-1 hover:shadow-none cursor-pointer"
               style={{ backgroundColor: "var(--primary)" }}
             >
-              Join The Crash
+              Join The Asgard
             </button>
             <button
               className="px-7 py-3 text-sm font-bold uppercase tracking-widest text-white border-2 border-white transition-all hover:bg-white hover:text-[#121212] cursor-pointer"
@@ -92,21 +90,7 @@ export default function Hero() {
               className="relative z-10 block object-cover border-8 border-white"
               priority
             />
-
-            {/* OUT NOW badge — outside the frame, bottom-right */}
-            <div
-              className="absolute z-20 font-bold uppercase tracking-widest text-white text-sm"
-              style={{
-                bottom: "-32px",
-                right: "-32px",
-                backgroundColor: "var(--neutral)",
-                padding: "14px 20px",
-                border: "4px solid white",
-                transform: "skewX(-6deg)",
-              }}
-            >
-              Out Now!
-            </div>
+            
           </div>
         </div>
 
