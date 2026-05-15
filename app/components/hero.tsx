@@ -1,5 +1,5 @@
 import Image from "next/image";
-import heroBackground from "../../images/hero-background.jpg";
+import heroBackground from "../../images/hero-background_resize.jpg";
 import blackPanther from "../../images/hero_black_panther.png";
 
 export default function Hero() {
@@ -38,10 +38,9 @@ export default function Hero() {
           <h1
             className="text-5xl xl:text-6xl font-bold uppercase leading-none tracking-tight text-white"
           >
-            Unleash The{" "}
-            <span style={{ color: "var(--primary)" }}>Asgard</span>
+            ignite the {" "}
             <br />
-            Within
+            <span style={{ color: "var(--primary)" }}>multiverse</span>
           </h1>
 
           {/* Body */}
